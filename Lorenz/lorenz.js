@@ -13,7 +13,7 @@ const beta = 8 / 3;
 let x = Math.random() * 0.01;
 let y = Math.random() * 0.01;
 let z = Math.random() * 0.01;
-let hue = Math.floor(Math.random() * 100) + 1;
+let hue = Math.floor(Math.random() * 360);
 
 function setupCanvas() {
     ctx.fillStyle = 'black';
